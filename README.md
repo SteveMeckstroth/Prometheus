@@ -2,8 +2,13 @@
 
 Run this command to get the dockers up and running:
 
+### On Linux/Mac
 ```bash
 sh setup_dockers.sh
+```
+### Windows
+```cmd
+setup_dockers.cmd
 ```
 
 After they are running, you can run
