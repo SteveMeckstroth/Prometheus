@@ -1,0 +1,10 @@
+groups:
+  - name: example
+    rules:
+    - alert: InflatedCount
+      expr: increase(pipeline_records_total[1m]) > 25
+      labels:
+        notification: none
+        severity: warn
+      annotations:
+        description: "Record count increased drastically. Please examine."
